@@ -2,11 +2,13 @@ package com.sets
 
 class SetsMethods {
   def setUnion(a: Set[Int], b: Set[Int]): Set[Int] = {
-    val union = a.++(b)
+    //val union = a.++(b)
+    val union = a ++ b
     union
   }
   def setIntersect(a: Set[Int], b: Set[Int]): Set[Int] = {
-    val intersect = a.&(b)
+    //val intersect = a.&(b)
+    val intersect = a & b
     intersect
   }
 }
